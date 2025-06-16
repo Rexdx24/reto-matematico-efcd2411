@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reto Matemágico</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Reto Matemágico</h1>
+    <p id="score">Puntaje: 0 | Vidas: 3</p>
+    <div id="question"></div>
+    <div id="options"></div>
+  </div>
+  <script src="script.js"></script>
+<button onclick="document.getElementById('bg-music').play()">🎵 Activar música</button>
+<audio id="bg-music" loop>
+  <source src="ost.mp3" type="audio/mpeg">
+  Tu navegador no soporta audio HTML5.
+</audio>
+</body>
+</html>
